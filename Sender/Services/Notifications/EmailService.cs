@@ -27,7 +27,8 @@ namespace Sender.Services.Notifications
             int smtpPort = 587;
 
             string smtpUsername = "kirillafanasev7257@gmail.com";
-            string smtpPassword = "omhh lotb tbhp vecu";
+            string smtpPassword = "";
+            //omhh lotb tbhp vecu
 
             if (string.IsNullOrWhiteSpace(smtpUsername) || string.IsNullOrWhiteSpace(smtpPassword))
                 throw new InvalidOperationException("Не заданы SENDER_EMAIL или SENDER_EMAIL_PASSWORD");
